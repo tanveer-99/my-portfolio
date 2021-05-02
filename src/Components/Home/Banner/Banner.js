@@ -6,10 +6,7 @@ import { faArrowRight, faDownload } from '@fortawesome/free-solid-svg-icons'
 import Navbar from '../../Shared/Navbar/Navbar'
 import resume from '../../../RESUME.pdf'
 const Banner = () => {
-    const downloadResume = ()=> {
-        window.location.href = "https://drive.google.com/file/d/1LqPguLaK5r6K6oOUf556ZDmB56tvqPw_/view?usp=sharing"
-
-    }
+    
     return (
         <div className="banner-section" id="home">
             <div className="container">

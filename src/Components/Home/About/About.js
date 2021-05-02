@@ -13,7 +13,7 @@ const About = () => {
                     <div className="row pl-5">
 
                         <div className="col-md-5 col-lg-5 pr-5 mb-5 d-flex flex-column justify-content-center align-items-center" style={{lineHeight: 2}}>
-                                <img src={image} ></img>
+                                <img src={image} alt=""></img>
                                 <p>An enthusiastic full stack web developer with a background of CSE who
                                     loves to take challenges and is determined to complete the task at any cost.
                                     Experienced with HTML, CSS, Javascript, React, react-bootstrap, Firebase,
