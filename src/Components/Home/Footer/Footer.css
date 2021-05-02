@@ -1,0 +1,14 @@
+.footer-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: black;
+}
+.social-icon {
+    font-size: 2rem;
+    color: black;
+    margin-right: 1rem;
+    transition: all 0.5s;
+}
+.social-icon:hover {
+    font-size: 2.5rem;
+}

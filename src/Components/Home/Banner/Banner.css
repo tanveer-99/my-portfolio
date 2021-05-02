@@ -1,0 +1,84 @@
+.banner-section {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(37, 34, 34);
+    color: white;
+}
+.banner-body .banner-title h1 span {
+    color: rgb(201, 6, 16);
+}
+.banner-section .banner-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.work-button, .resume-button {
+    margin-top: 2rem;
+    border: none;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: white;
+    transition: all 0.5s;
+
+}
+.arrow-icon {
+    transition: all 0.5s;
+}
+.work-button:hover {
+    background-color: rgb(201, 6, 16);
+}
+.resume-button:hover {
+    background-color: rgb(201, 6, 16);
+}
+.work-button:hover .arrow-icon {
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+@media(max-width: 500px) {
+    .banner-body .banner-title h1  {
+        font-size: 1.3rem;
+    }
+    .banner-title {
+        margin-bottom: 1.5rem;
+    }
+    .banner-body .banner-title h1 span  {
+        font-size: 2.3rem;
+    }
+    .banner-body .banner-title h4 {
+        font-size: 1.3rem;
+    }
+    .banner-body button {
+        margin-top:10px;
+        padding: 0.2rem 0.7rem;
+
+    }
+}
+
+@media(min-width: 501px) and (max-width:728px) {
+    .banner-body .banner-title h1  {
+        font-size: 1.1rem;
+    }
+    .banner-title {
+        margin-bottom: 1.5rem;
+    }
+    .banner-body .banner-title h1 span  {
+        font-size: 2.1rem;
+    }
+    .banner-body .banner-title h4 {
+        font-size: 1.1rem;
+    }
+    .banner-body button {
+        margin-top:10px;
+        padding: 0.2rem 0.7rem;
+
+    }
+}

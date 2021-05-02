@@ -1,0 +1,53 @@
+.nav-link{
+    color: White !important;
+    padding: 5px;
+    margin-right: 0.5rem;
+    transition: all 0.5s;
+    position: relative;
+}
+.nav-link::before, .nav-link::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+}
+.nav-link::before {
+    top: 0;
+    left: 0;
+  }
+  .nav-link::after {
+    bottom: 0;
+    right: 0;
+  }
+  .nav-link:hover {
+    color: rgb(201, 6, 16);
+  }
+  .nav-link:hover::before, .nav-link:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+  .nav-link:hover::before {
+    border-top-color: rgb(201, 6, 16);
+    border-right-color: rgb(201, 6, 16);
+    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+  }
+  .nav-link:hover::after {
+    border-bottom-color: rgb(201, 6, 16);
+    border-left-color: rgb(201, 6, 16);
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+  }
+
+nav .navbar-brand  {
+    color: rgb(201, 6, 16) !important;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
