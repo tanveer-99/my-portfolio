@@ -14,11 +14,11 @@ const Projects = () => {
                         <div className="col-md-4">
 
                             <div className="projects-card">
-                                <img src={eBazar}></img>
+                                <img src={eBazar} alt=""></img>
                                 <div className="project-info">
                                     <div className="text-center">
                                         <h3 className="project-name">E-Bazar</h3>
-                                        <a href="https://e-bazar-ce163.web.app" target="_blank" className="live-site-button">Open</a>
+                                        <a href="https://e-bazar-ce163.web.app" target="_blank" rel="noreferrer" className="live-site-button">Open</a>
                                         <a href="https://github.com/tanveer-99/E-Bazar-Client" target="_blank"  className="view-code-button">Code</a>
                                     </div>
                                 </div>
@@ -28,11 +28,11 @@ const Projects = () => {
                         <div className="col-md-4">
 
                             <div className="projects-card">
-                                <img src={lensShots}></img>
+                                <img src={lensShots} alt=""></img>
                                 <div className="project-info">
                                     <div className="text-center">
                                         <h3 className="project-name">Lens-Shots</h3>
-                                        <a href="https://lens-shots.firebaseapp.com" target="_blank"  className="live-site-button">Open</a>
+                                        <a href="https://lens-shots.firebaseapp.com" target="_blank" rel="noreferrer"  className="live-site-button">Open</a>
                                         <a href="https://github.com/tanveer-99/Lens-Shots-Client" target="_blank"  className="view-code-button">Code</a>
                                     </div>
                                 </div>
@@ -42,11 +42,11 @@ const Projects = () => {
                         <div className="col-md-4">
 
                             <div className="projects-card">
-                                <img src={cityRider}></img>
+                                <img src={cityRider} alt=""></img>
                                 <div className="project-info">
                                     <div className="text-center">
                                         <h3 className="project-name">City-Rider</h3>
-                                        <a href="https://riding-app-react.web.app" target="_blank"  className="live-site-button">Open</a>
+                                        <a href="https://riding-app-react.web.app" target="_blank"  rel="noreferrer" className="live-site-button">Open</a>
                                         <a href="https://github.com/tanveer-99/City-Rider" target="_blank"  className="view-code-button">Code</a>
                                     </div>
                                 </div>

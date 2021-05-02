@@ -28,7 +28,7 @@ const Banner = () => {
                     </Typing>
                 </div>
                 <button className="work-button">View My Work <FontAwesomeIcon className="ml-2  arrow-icon" icon={faArrowRight} /></button>
-                <a href={resume} download="Resume|Tanvir" target='_blank'>
+                <a href={resume} download="Resume|Tanvir" target='_blank' rel="noreferrer">
                     <button className="resume-button" target="_blank">Download Resume <FontAwesomeIcon  className="ml-2" icon={faDownload} /></button>
                 </a>
                 
